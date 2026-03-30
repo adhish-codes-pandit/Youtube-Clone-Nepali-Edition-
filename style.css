@@ -1,0 +1,261 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+nav{
+    height: 70px;
+    background-color: rgb(26, 25, 25);
+    width: 98.7%;
+    display: flex;              
+    align-items: center;        
+    padding: 0 10px;
+    gap: 10px;  
+    position: fixed;                
+}
+
+
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 0px;
+    font-size: larger;
+}
+
+
+.img{
+    display: flex;
+    align-items: center;
+}
+
+#logoi{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+    margin-left: 250px; 
+    border-color: aliceblue ;
+    border-width: 10px;
+}
+
+
+#search{
+    width: 500px;
+    background-color: rgb(48, 48, 48);
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    border: rgb(83, 82, 82) 1px solid;
+    padding-left: 15px;
+    color: white;
+}
+
+
+#click{
+    height: 43px;
+    width: 50px;
+    background-color: rgb(83, 82, 82);
+    border-radius: 0 20px 20px 0;
+    border: none;
+    cursor: pointer;
+    border: rgb(83, 82, 82) 1px solid;
+}
+
+
+#mic{
+    border-radius: 50%;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    padding: 11px;
+    cursor: pointer;
+}
+
+
+#threelines{
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#threelines:hover{
+    background-color: rgb(129, 128, 128);
+}
+
+
+#create{
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 230px;
+}
+#noti{
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin:0px;
+    font-size: larger;
+}
+
+#create:hover{
+    background-color: rgb(70, 70, 70);
+}
+#noti:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#pfp{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+#pfpi{
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+}
+#prio{
+    display: inline-block;
+    margin-left: 70px;
+}
+.kura{
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    background-color:rgb(48, 48, 48);
+    padding: 8px;
+    margin-top: 90px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.kura:hover{
+    background-color: rgb(78, 73, 73);
+}
+#select{
+    background-color: white;
+    color: black;
+    font-size: small;
+}
+.vid{
+    height: 236px;
+    width: 419px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.vid:hover{
+    background-color: rgb(32, 31, 31);
+    height: 242px ;
+    width: 425px;
+    transition: 8ms;
+}
+.thumbi{
+    height: 236px;
+    width: 419px;
+    border-radius: 20px;
+}
+.details{
+    height: 66px;
+    width: 419px;
+    background-color: transparent;
+    color: white;
+}
+.channel{
+    color: rgb(109, 95, 95);
+    margin-top: 0px;
+    font: small;
+}
+.cp{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+#shortc{
+    margin-left: 70px;
+    display: inline-block;
+}
+#slogo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 30px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+#sname{
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#svidee{
+    margin-left: 70px;
+}
+.svid{
+    height: 368px;
+    width: 245px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 28px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.sthumbi{
+    height: 368px;
+    width: 245px;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+.sdetails{
+    height: 61px;
+    width: 245px;
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+}
+.sv{
+     color: rgb(109, 95, 95);
+     font-size: small;
+     margin-top: 0px;
+}
+.svid:hover{
+    background-color: rgb(32, 31, 31);
+    height: 374px ;
+    width: 251px;
+    transition: 8ms;
+}
